@@ -1,0 +1,158 @@
+/* cabeçalho */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Helvetica;
+
+}
+
+header{
+
+    background-color: rgb(146, 69, 218);
+    color: floralwhite;
+    padding: 15px;
+    text-align: center;
+    
+
+}
+
+/* Grid de produtos */
+
+.container {
+    background-color: beige;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.Card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.production-image {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 10PX;
+    background-position: center;
+    background-size: cover ;
+}
+
+#img-1 {
+
+background-image: url('../IMG/アガボ\ on\ Twitter.jpg');
+
+}
+
+#img-2 {
+
+    background-image: url('../IMG/il\ pilota\,\ Fernando\ Correa.jpg'); 
+
+}
+
+#img-3 {
+
+    background-image: url('../IMG/d3fd0e92-4bc8-4d31-a0fb-cdf7ba479bd2.jpg');
+
+}
+
+#img-4 {
+
+    background-image: url('../IMG/Illustration\ by\ Davey\ Perkins.jpg');
+
+}
+
+#img-5 {
+
+    background-image: url('../IMG/transferir.jpg');
+
+}
+
+#img-6 {
+
+    background-image: url('../IMG/DEATHBURGER.png');
+    
+}
+
+h3 {
+
+    margin-bottom: 10px;
+    color: rgb(146, 69, 218);
+    border-right: 5px solid rgb(146, 69, 218);
+    padding-left: 7px;
+    font-size: 24px;
+
+}
+
+.Card p {
+
+    margin-bottom: 10px;
+
+}
+
+.bold {
+
+    font-weight: bold;
+
+}
+
+a{
+
+
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color:  rgb(146, 69, 218);
+    text-decoration: none;
+
+}
+
+a svg,
+a svg rect {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    fill: none;
+}
+
+a svg rect {
+
+    stroke: rgb(146, 69, 218);
+    stroke-width: 4;
+    transition: 2s;
+    stroke-dasharray: 60 200;
+    stroke-dashoffset: 300;
+}
+
+a:hover svg rect {
+
+    
+    stroke-dasharray: 200 60;
+    stroke-dashoffset: 0;
+    
+
+}
+
+
+/* footer */
+
+footer{
+
+    background-color: rgb(146, 69, 218);
+    color: floralwhite;
+    border-top: 3px solid  rgb(146, 69, 218);
+    text-align: center;
+    padding: 80px;
+
+}
